@@ -7,7 +7,7 @@
           "command": "nasm",
           "args": [
               "-g",
-              "-f",
+              "-F",
               "dwarf",
               "-f",
               "elf64",
@@ -41,7 +41,7 @@
           "command": "nasm",
           "args": [
               "-g",
-              "-f",
+              "-F",
               "cv8",
               "-f",
               "win64",
